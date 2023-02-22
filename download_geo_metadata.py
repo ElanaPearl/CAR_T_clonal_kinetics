@@ -20,4 +20,12 @@ meta_df = pd.DataFrame(
         "time_point_type",
     ],
 )
+print("-----------------------------------------------------------")
+print(
+    f"{len(meta_df)} samples collected from {meta_df['patient_id'].nunique()} "
+    + f"patients across {meta_df['time_point_type'].nunique()} time points"
+)
+print("Metadata:")
+print(meta_df)
+print("Saving metadata to geo_metadata.csv")
 meta_df.to_csv("geo_metadata.csv", index=False)
