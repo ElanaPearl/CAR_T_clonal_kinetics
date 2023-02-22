@@ -1,0 +1,15 @@
+name: bmi
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - pip
+  - pip:
+    - mygene
+    - statsmodels
+    - scanpy
+    - GEOparse
