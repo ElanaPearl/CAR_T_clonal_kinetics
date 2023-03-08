@@ -20,6 +20,10 @@ meta_df = pd.DataFrame(
         "time_point_type",
     ],
 )
+suppl_meta = pd.read_csv("suppl_table_1_metadata.csv", delim_whitespace=True)
+meta_df = meta_df.merge(
+    suppl_meta, left_on="patient_id", right_on="ID", how="left"
+)
 print("-----------------------------------------------------------")
 print(
     f"{len(meta_df)} samples collected from {meta_df['patient_id'].nunique()} "
