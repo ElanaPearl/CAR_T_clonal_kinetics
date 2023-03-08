@@ -1,0 +1,15 @@
+ID Assay Age Sex CD8_T_cell_selection LD Cell_dose(EGFRt+cells/kg) Neurotox CRS Outcome DFS/PFS_Status DFS/PFS_Day
+ALL-1 T 37 F CD8TCM Cy 2x105 0 2 CR Relapse 66
+ALL-2 T-I 62 F CD8TCM Cy 2x105 0 2 CR Relapse 65
+ALL-3 T-I 40 F CD8TCM Cy/Flu 2x106 0 2 CR CR_Ongoing 1098
+ALL-4 T-I 22 M CD8TCM Cy/Flu 2x106 3 2 CR CR_Ongoing 765
+ALL-5 T 24 F CD8TCM Cy 2x105 3 3 CR Relapse 126
+NHL-1 T 65 M CD8TCM Cy/Flu 2x106 0 0 CR Relapse 298
+NHL-2 T-I 36 M CD8TCM Cy/Flu 2x107 0 2 PR Progression 58
+NHL-3 T-I 51 M CD8TCM Cy/Flu 2x107 0 2 CR Progression 76
+NHL-4 T 57 M CD8TCM Cy/E 2x105 0 2 PR Progression 41
+NHL-5 T 68 M CD8TCM Cy/E 2x106 0 1 PR Relapse 274
+NHL-6 10x-I 64 M CD8TCM Cy/Flu 2x106 3 4 CR Progression 285
+NHL-7 10x-I 51 F CD8TCM Cy/Flu 2x106 1 0 CR CR_Ongoing 393
+CLL-1 10x 61 M CD8 Cy/Flu 2x105 0 0 CR CR_Ongoing 947
+CLL-2 10x 53 F CD8 Cy/Flu 2x106 3 2 CR CR_Ongoing 764
