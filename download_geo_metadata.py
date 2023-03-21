@@ -1,7 +1,10 @@
 import GEOparse
 import pandas as pd
 
-gse = GEOparse.get_GEO(geo="GSE125881", destdir="geo_data/")
+print("Downloading metdata...")
+gse = GEOparse.get_GEO(
+    geo="GSE125881", destdir="/tmp/geo_data"
+)  # save to tmp because we don't use
 meta_data = []
 for gsm_name, gsm in gse.gsms.items():
     gsm_info = [gsm_name]
