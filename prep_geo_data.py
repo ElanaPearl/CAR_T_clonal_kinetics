@@ -3,7 +3,7 @@ import os
 import tarfile
 
 raw_file = "GSE125881_raw.expMatrix.csv.gz"
-transposed_file = "expMatrix_transposed.csv"
+transposed_file = "expMatrix.csv"
 
 
 def transpose_csv(csv_path, output_csv_path="transposed.csv", delimiter=","):
@@ -29,7 +29,6 @@ if not os.path.exists(transposed_file):
     raw_file = raw_file[:-3]
 
     transpose_csv(raw_file, transposed_file)
-    os.remove(raw_file)
 else:
     print(f"Found {transposed_file} in {os.getcwd()}")
 
