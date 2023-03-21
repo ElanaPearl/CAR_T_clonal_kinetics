@@ -1,15 +1,19 @@
 name: bmi
 channels:
-  - defaults
+  - conda-forge
+  - bioconda
 dependencies:
   - pandas
   - numpy
   - matplotlib
   - seaborn
+  - scanpy
   - scipy
+  - leidenalg
   - pip
   - pip:
     - mygene
     - statsmodels
-    - scanpy
+    - matplotlib-venn
     - GEOparse
+    - gseapy
