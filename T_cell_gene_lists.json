@@ -207,5 +207,9 @@
         "UBE2D1",
         "VDAC1",
         "ZFP36L2"
+    ],
+    "T_Cell_Memory": [
+        "SELL",
+        "CCR7"
     ]
 }
