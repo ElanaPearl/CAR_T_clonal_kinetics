@@ -2,7 +2,7 @@
 Profiling CAR-T Cell Transcriptomic and Clonal Kinetics During Treatment
 
 How to re-run analysis:
-1. Download [scRNA-seq expression data](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE125881&format=file&file=GSE125881%5Fraw%2EexpMatrix%2Ecsv%2Egz) and [TCR-seq data](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE125881&format=file) via the hyperlinks into directory of choice.
+1. Download [scRNA-seq expression data](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE125881&format=file&file=GSE125881%5Fraw%2EexpMatrix%2Ecsv%2Egz) and [TCR-seq data](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE125881&format=file) via the hyperlinks into the directory where this code is stored.
 2. Run `python prep_geo_data.py` to process the downloaded data into usable forms
 3. Run `python download_geo_metadata.py` to download and process metadata about the samples
 4. `expr_preprocessing.ipynb` does initial QC and normalization on the scRNA-seq, adds in metadata, then saves a preprocessed version of the data to `expr_preprocessed.h5ad`, which is used in the other notebooks to reduce repeating computation
